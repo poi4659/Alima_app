@@ -1,0 +1,401 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/streching_b"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:background="#00ff0000"
+            android:textStyle="bold"
+            android:textSize="30dp"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="360dp"
+                android:layout_height="300dp"
+                android:orientation="vertical"
+                android:background="@drawable/reportbox_back">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="7dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_marginRight="8dp"
+                        android:text="🏃 스트레칭의"
+                        android:textColor="@color/black"
+                        android:textSize="23dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:text="이점"
+                        android:textColor="@color/black"
+                        android:textSize="23dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:text="- 근육을 늘려 유연성을 향상시킵니다."
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="25dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:text="- 혈액순환에 도움이 됩니다."
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="25dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:text="- 움직임의 범위를 개선해 근육 부상 위험을
+                                    \n  감소시킵니다."
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="25dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:text="- 허리 근육을 강화시켜 통증을 완화하고
+                            \n  예방할 수 있습니다."
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="25dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:text="- 스트레칭은 부교감신경계를 활성화시켜
+                            \n  편안함을 느끼게 해 스트레스를 감소시킵니다."
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="25dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:text="- 자세를 개선시키는데 도움을 줍니다."
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="25dp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="360dp"
+                android:layout_height="280dp"
+                android:orientation="vertical"
+                android:background="@drawable/reportbox_back">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="7dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_marginRight="8dp"
+                        android:text="🌅 아침"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="23dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:text="스트레칭"
+                        android:textColor="@color/black"
+                        android:textSize="23dp"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18dp"
+                        android:text="[목 돌리기]"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="25dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:text="- 잠에서 깼을 때 목의 긴장과 뻣뻣함을
+                            \n  완화하는 데 도움을 줍니다."
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="25dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:text="- 똑바로 서거나 앉은 자세로 정면을 바라봅니다."
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="25dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:text="- 목 오른쪽이 부드럽게 펴질 때까지
+                            \n  머리를 왼쪽으로 돌립니다."
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="25dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:text="- 잠시 멈추고 머리를 반대로 돌립니다."
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="25dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:text="- 이를 각 5~10회 반복합니다."
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="25dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="360dp"
+                android:layout_height="375dp"
+                android:orientation="vertical"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/reportbox_back">
+
+                <!--3번-->
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="7dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_marginRight="8dp"
+                        android:text="☀ 점심"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="23dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:text="스트레칭"
+                        android:textColor="@color/black"
+                        android:textSize="23dp"
+                        />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="[비둘기 자세]"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="25dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:text="- 엉덩이 주변 근육의 긴장을 푸는 데
+                              \n  도움을 줍니다."
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="25dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:text="- 오른쪽 무릎을 굽히고 정강이를
+                            \n  자신의 앞 바닥에 갖다 댑니다."
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="25dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:text="- 왼쪽 다리를 뒤로 길게 빼서 발등이 바닥에
+                            \n  평평해지도록 합니다. "
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="25dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:text="- 엉덩이가 바닥에 닿기 불편하면 엉덩이 밑에
+                            \n  베개를 넣어도 좋습니다. "
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="25dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:text="- 허리를 펴고 손을 바닥에 댑니다."
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="25dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:text="- 최대 10번 숨을 쉬며 자세를 유지한 후
+                            \n  다리를 바꿔줍니다."
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="25dp"/>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="360dp"
+                android:layout_height="300dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical"
+                android:background="@drawable/reportbox_back">
+
+                <!--4번-->
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="7dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_marginRight="8dp"
+                        android:text="🌆 저녁"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="23dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:text="스트레칭"
+                        android:textColor="@color/black"
+                        android:textSize="23dp"
+                        />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="[아기 자세]"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="25dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:text="- 어깨, 등, 목 근육의 긴장을 완화시킵니다."
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="25dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:text="- 뒤꿈치에 기대앉습니다."
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="25dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:text="- 몸을 앞으로 숙여 이마를 바닥에 갖다 대며
+                            \n  엉덩이는 뒤로 젖힙니다."
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="25dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:text="- 손바닥을 바닥에 평평하게 펴고
+                            \n  손을 머리 위로 뻗습니다."
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="25dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:text="- 숨을 깊게 들이쉬면서 3~5분 동안 자세를
+                                    \n  유지합니다."
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="25dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

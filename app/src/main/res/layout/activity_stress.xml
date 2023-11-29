@@ -1,0 +1,424 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stress_b"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:background="#00ff0000"
+            android:textStyle="bold"
+            android:textSize="30dp"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="360dp"
+                android:layout_height="155dp"
+                android:orientation="vertical"
+                android:background="@drawable/reportbox_back">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="7dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_marginRight="8dp"
+                        android:text="🛌 충분한"
+                        android:textColor="@color/black"
+                        android:textSize="23dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:text="수면"
+                        android:textColor="@color/black"
+                        android:textSize="23dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="330dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="15dp"
+                    android:text="보통 충분한 수면 시간을 8시간 정도로 봅니다.
+                                  \n충분한 수면을 취하면 인체의 피로가 회복되면서
+                                  \n스트레스를 해소할 수 있습니다."
+                    android:layout_marginTop="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="360dp"
+                    android:layout_height="145dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/reportbox_back">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="7dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:layout_marginRight="8dp"
+                            android:text="🍱 규칙적인"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:textSize="23dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:text="식사"
+                            android:textColor="@color/black"
+                            android:textSize="23dp" />
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:text="오메가3 지방산이 함유된 호도씨, 아마씨는
+                            \n스트레스를 해소하는데 도움이 준다고 \n알려져 있습니다."
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="25dp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="360dp"
+                    android:layout_height="200dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/reportbox_back">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="7dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:layout_marginRight="8dp"
+                            android:text="📝 업무 시작 전에 하루"
+                            android:textColor="@color/black"
+                            android:textSize="23dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:text="계획"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:textSize="23dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:text="하루 계획을 수립하면 보다 효율적으로
+                            \n하루를 통제 및 관리할 수 있습니다.
+
+                            \n\n\n해야할 일을 리스트로 만들어 관리하는 것도
+                            \n좋은 방법입니다."
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="25dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="360dp"
+                    android:layout_height="145dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/reportbox_back">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="7dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:layout_marginRight="8dp"
+                            android:text="🛋 규칙적인"
+                            android:textColor="@color/black"
+                            android:textSize="23dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:text="휴식시간"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:textSize="23dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:text="스스로 휴식 시간을 챙길 자신이 없다면 \n알림을 설정해 두거나
+                            \n캘린더에 휴식 시간을 추가해보세요."
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="25dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="360dp"
+                    android:layout_height="145dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/reportbox_back">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="7dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:layout_marginRight="8dp"
+                            android:text="🧘 깊은"
+                            android:textColor="@color/black"
+                            android:textSize="23dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:text="심호흡"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:textSize="23dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:text="깊은 심호흡을 통해 뇌로 충분한 산소를 공급하고
+                            \n가빠진 호흡과 심박수를 안정시킬 수 있습니다.
+                            \n단 3번만이라도 좋습니다."
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="25dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="360dp"
+                    android:layout_height="165dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/reportbox_back">
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="7dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:text="🏃 가벼운 운동"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:textSize="23dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:text="을 합니다"
+                            android:textColor="@color/black"
+                            android:textSize="23dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:text="스트레스 상황이 발생한 후에
+                            \n'빨리걷기' 등의 가벼운 운동을 해보세요.
+                            \n근육 긴장을 완화하고 혈액 순환을 \n도와줄 수 있습니다."
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="25dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="360dp"
+                    android:layout_height="65dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/reportbox_back">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="7dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:text="👥 적극적인 대인관계"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:text="를 갖습니다"
+                            android:textColor="@color/black"
+                            android:textSize="20dp" />
+                    </LinearLayout>
+                    <!--7번-->
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="360dp"
+                    android:layout_height="95dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/reportbox_back">
+
+                    <!--8번-->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="🕺 주인의식을 가지고 \n즐겁게 생활하려고 노력합니다"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginBottom="10dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="360dp"
+                    android:layout_height="95dp"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/reportbox_back">
+
+                    <!--9번-->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="👩‍⚕ 필요한 경우 정신과 의사를 찾아
+                            \n지도를 받는 것도 좋습니다"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginBottom="10dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

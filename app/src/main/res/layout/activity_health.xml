@@ -1,0 +1,163 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/health_back"
+    tools:context=".HealthActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:background="#00ff0000"
+            android:textStyle="bold"
+            android:textSize="30dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="8dp">
+            <TextView
+                android:id="@+id/textView_name1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="23dp"
+                android:text=""
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="님을 위한"
+                android:textColor="@color/black"
+                android:textSize="23dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="꿀팁 정보"
+                android:textColor="@color/purple_main"
+                android:textSize="23dp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewTip4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="15dp"
+            android:text="꿀팁 버튼을 눌러 건강 정보를 알아보세요."
+            android:textSize="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+            <ImageButton
+                android:id="@+id/sleepingBtn"
+                android:layout_width="105dp"
+                android:layout_height="105dp"
+                android:background="@drawable/sleeping" />
+
+            <ImageButton
+                android:id="@+id/stressBtn"
+                android:layout_width="105dp"
+                android:layout_height="105dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/stress"/>
+
+            <ImageButton
+                android:id="@+id/stretchingBtn"
+                android:layout_width="105dp"
+                android:layout_height="105dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/stretching"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="8dp">
+            <TextView
+                android:id="@+id/textView_name2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="23dp"
+                android:text=""
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="님을 위한"
+                android:textColor="@color/black"
+                android:textSize="23dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="꿀팁 영상"
+                android:textColor="@color/purple_main"
+                android:textSize="23dp"
+                android:textStyle="bold"/>
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="15dp"
+                android:layout_centerInParent="true"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="380dp"
+            android:layout_height="340dp"
+            android:layout_gravity="center">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="25dp"
+                tools:ignore="WebViewLayout">
+                <WebView
+                    android:id="@+id/webViewTip1"
+                    android:layout_width="380dp"
+                    android:layout_height="200dp"
+                    tools:ignore="WebViewLayout"/>
+
+                <WebView
+                    android:id="@+id/webViewTip2"
+                    android:layout_width="380dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"/>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</LinearLayout>

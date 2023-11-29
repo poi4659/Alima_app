@@ -1,0 +1,477 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/report_back"
+    tools:context=".ReportActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:orientation="horizontal"
+       tools:ignore="MissingConstraints">
+      <Button
+          android:id="@+id/backButton"
+          android:layout_width="80dp"
+          android:layout_height="50dp"
+          android:background="#00ff0000"
+          android:textStyle="bold"
+          android:textSize="30dp"/>
+   </LinearLayout>
+
+   <ImageView
+       android:id="@+id/red_foot"
+       android:layout_width="14dp"
+       android:layout_height="14dp"
+       android:background="@drawable/radio_button_red"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.53"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.41"
+       tools:ignore="MissingConstraints" />
+
+   <ImageView
+       android:id="@+id/orange_foot"
+       android:layout_width="14dp"
+       android:layout_height="14dp"
+       android:background="@drawable/radio_button_orange"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.53"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.41"
+       tools:ignore="MissingConstraints" />
+
+
+   <ImageView
+       android:id="@+id/red_stomach"
+       android:layout_width="14dp"
+       android:layout_height="14dp"
+       android:background="@drawable/radio_button_red"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.5"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.25"
+       tools:ignore="MissingConstraints" />
+
+   <ImageView
+       android:id="@+id/orange_stomach"
+       android:layout_width="14dp"
+       android:layout_height="14dp"
+       android:background="@drawable/radio_button_orange"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.5"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.25"
+       tools:ignore="MissingConstraints" />
+
+   <ImageView
+       android:id="@+id/red_arms"
+       android:layout_width="14dp"
+       android:layout_height="14dp"
+       android:background="@drawable/radio_button_red"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.41"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.24"
+       tools:ignore="MissingConstraints" />
+
+   <ImageView
+       android:id="@+id/orange_arms"
+       android:layout_width="14dp"
+       android:layout_height="14dp"
+       android:background="@drawable/radio_button_orange"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.41"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.24"
+       tools:ignore="MissingConstraints" />
+
+   <ImageView
+       android:id="@+id/red_shoulder"
+       android:layout_width="14dp"
+       android:layout_height="14dp"
+       android:background="@drawable/radio_button_red"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.423"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.19"
+       tools:ignore="MissingConstraints" />
+
+   <ImageView
+       android:id="@+id/orange_shoulder"
+       android:layout_width="14dp"
+       android:layout_height="14dp"
+       android:background="@drawable/radio_button_orange"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.423"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.19"
+       tools:ignore="MissingConstraints" />
+
+   <ImageView
+       android:id="@+id/red_legs"
+       android:layout_width="14dp"
+       android:layout_height="14dp"
+       android:background="@drawable/radio_button_red"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.45"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.35"
+       tools:ignore="MissingConstraints" />
+
+   <ImageView
+       android:id="@+id/orange_legs"
+       android:layout_width="14dp"
+       android:layout_height="14dp"
+       android:background="@drawable/radio_button_orange"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.45"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.35"
+       tools:ignore="MissingConstraints" />
+
+   <ImageView
+       android:id="@+id/red_neck"
+       android:layout_width="14dp"
+       android:layout_height="14dp"
+       android:background="@drawable/radio_button_red"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.5"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.17"
+       tools:ignore="MissingConstraints" />
+   <ImageView
+       android:id="@+id/orange_neck"
+       android:layout_width="14dp"
+       android:layout_height="14dp"
+       android:background="@drawable/radio_button_orange"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.5"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.17"
+       tools:ignore="MissingConstraints" />
+
+   <ImageView
+       android:id="@+id/red_head"
+       android:layout_width="14dp"
+       android:layout_height="14dp"
+       android:background="@drawable/radio_button_red"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.5"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.12"
+       tools:ignore="MissingConstraints" />
+
+   <ImageView
+       android:id="@+id/orange_head"
+       android:layout_width="14dp"
+       android:layout_height="14dp"
+       android:background="@drawable/radio_button_orange"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.5"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.12"
+       tools:ignore="MissingConstraints" />
+
+   <ImageView
+       android:id="@+id/red_nose"
+       android:layout_width="14dp"
+       android:layout_height="14dp"
+       android:background="@drawable/radio_button_red"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.49"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.15"
+       tools:ignore="MissingConstraints" />
+
+   <ImageView
+       android:id="@+id/orange_nose"
+       android:layout_width="14dp"
+       android:layout_height="14dp"
+       android:background="@drawable/radio_button_orange"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.49"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.15"
+       tools:ignore="MissingConstraints" />
+
+   <ImageView
+       android:id="@+id/red_eye"
+       android:layout_width="14dp"
+       android:layout_height="14dp"
+       android:background="@drawable/radio_button_red"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.52"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.14"
+       tools:ignore="MissingConstraints" />
+
+   <ImageView
+       android:id="@+id/orange_eye"
+       android:layout_width="14dp"
+       android:layout_height="14dp"
+       android:background="@drawable/radio_button_orange"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.52"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.14"
+       tools:ignore="MissingConstraints" />
+
+   <ImageView
+       android:id="@+id/red_ear"
+       android:layout_width="14dp"
+       android:layout_height="14dp"
+       android:background="@drawable/radio_button_red"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.54"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.145"
+       tools:ignore="MissingConstraints" />
+
+   <ImageView
+       android:id="@+id/orange_ear"
+       android:layout_width="14dp"
+       android:layout_height="14dp"
+       android:background="@drawable/radio_button_orange"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.54"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.145"
+       tools:ignore="MissingConstraints" />
+
+
+
+   <ScrollView
+       android:id="@+id/scrollView2"
+       android:layout_width="355dp"
+       android:layout_height="160dp"
+       android:background="@drawable/reportbox2_back"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.935">
+
+      <LinearLayout
+          android:layout_width="355dp"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+
+         <!-- 7일 미만 멘트 -->
+         <LinearLayout
+             android:id="@+id/noDataText"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:layout_marginTop="15dp"
+             android:orientation="vertical">
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/nodata_face" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="앗 분석할 정보가 없어요ㅠㅠ"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="7일간 증상을 기록해서"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="주간 리포트를 받아보는건 어떨까요?"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+         </LinearLayout>
+
+
+         <!-- 건강 멘트 -->
+         <LinearLayout
+             android:id="@+id/healthText"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:layout_marginTop="15dp"
+
+             android:orientation="vertical">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/smiling_face" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="한 주동안 건강하셨군요!"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="꾸준히 건강을 지켜봐요."
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+         </LinearLayout>
+
+         <!-- 4회 이상 기록 멘트 -->
+      <LinearLayout
+          android:id="@+id/sevenDangerText"
+          android:layout_width="330dp"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="15dp"
+          android:orientation="horizontal">
+
+         <TextView
+             android:layout_width="50dp"
+             android:layout_height="50dp"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="8dp"
+             android:background="@drawable/danger_face" />
+
+         <LinearLayout
+             android:layout_width="270dp"
+             android:layout_height="wrap_content"
+             android:orientation="vertical">
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="한 주동안 가장 많은 통증이 있는 부분"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/dangerTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#FF7B7B"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/noTextView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#FF7B7B"
+                android:text="없음"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+         </LinearLayout>
+      </LinearLayout>
+
+         <!-- 2회 이상 기록 멘트 -->
+         <LinearLayout
+             android:id="@+id/sevenDoubtText"
+             android:layout_width="330dp"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="10dp"
+             android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/doubt_face" />
+
+            <LinearLayout
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+               <TextView
+                   android:layout_width="250dp"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="5dp"
+                   android:text="의심되는 증상을 기록한 부분"
+                   android:textColor="@color/black"
+                   android:textSize="16dp" />
+
+               <TextView
+                   android:id="@+id/doubtTextView"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="5dp"
+                   android:textColor="#FFBA7B"
+                   android:textSize="16dp"
+                   android:textStyle="bold" />
+               <TextView
+                   android:id="@+id/noTextView2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="5dp"
+                   android:text="없음"
+                   android:textColor="#FFBA7B"
+                   android:textSize="16dp"
+                   android:textStyle="bold" />
+            </LinearLayout>
+         </LinearLayout>
+
+      </LinearLayout>
+   </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

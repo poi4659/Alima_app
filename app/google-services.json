@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "691390281209",
+    "firebase_url": "https://alima-test-397d1-default-rtdb.firebaseio.com",
+    "project_id": "alima-test-397d1",
+    "storage_bucket": "alima-test-397d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691390281209:android:55512f69f38a8756073928",
+        "android_client_info": {
+          "package_name": "com.example.alima_test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg6Rf6drrTdaP7LHiFkV7cQldbM00k9fs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

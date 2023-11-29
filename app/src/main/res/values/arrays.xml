@@ -1,0 +1,7 @@
+<resources>
+    <array name="spinner_items">
+        <item>등록순</item>
+        <item>최신순</item>
+        <!-- 필요한 항목을 추가 -->
+    </array>
+</resources>

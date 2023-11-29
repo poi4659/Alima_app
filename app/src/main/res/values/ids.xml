@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="nameEditText" type="id" />
+    <item name="goToLoginTextView" type="id" />
+    <item name="signUpButton" type="id" />
+    <item name="ageEditText" type="id" />
+    <item name="contactTextView" type="id" />
+    <item name="addressTextView" type="id" />
+    <item name="weekdayTextView" type="id" />
+    <item name="saturdayTextView" type="id" />
+    <item name="breakTimeTextView" type="id" />
+    <item name="sundayTextView" type="id" />
+</resources>

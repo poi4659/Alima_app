@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/hospital_back"
+    tools:context=".HospitalListActivity">
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:background="#00ff0000"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <!-- 상단 탭 -->
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp">
+
+        <!-- 전체병원 탭 -->
+        <TextView
+            android:id="@+id/all_hospitals_tab"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:background="@drawable/box_purple"
+            android:layout_marginRight="30dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="병원"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+
+        <!-- 주말 탭 -->
+        <TextView
+            android:id="@+id/weekend_tab"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="30dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="휴일 영업"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="@color/gray"
+            android:background="@drawable/border_gray"/>
+
+        <!-- 응급실 탭 -->
+        <TextView
+            android:id="@+id/emergency_tab"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="응급실"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="@color/gray"
+            android:background="@drawable/border_gray"/>
+
+    </LinearLayout>
+
+    <!-- 병원 정보를 표시할 ScrollView -->
+    <ScrollView
+        android:id="@+id/hospitalScrollView"
+        android:layout_width="350dp"
+        android:layout_height="500dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp">
+
+        <LinearLayout
+            android:id="@+id/hospital_list_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/all_hospitals_tab"
+            android:orientation="vertical"
+            tools:ignore="NotSibling">
+
+            <ViewStub
+                android:id="@+id/item_hospital_stub"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:inflatedId="@+id/item_hospital"
+                android:layout="@layout/item_hospital"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/mapbutton"
+        android:layout_width="150dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/map_button"
+        android:paddingLeft="25dp"
+        android:paddingBottom="3dp"
+        android:text="지도보기"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="@color/white" />
+</LinearLayout>

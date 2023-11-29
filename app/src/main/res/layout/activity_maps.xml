@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hospital_back"
+    tools:context=".MapsActivity">
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:background="#00ff0000"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        tools:ignore="MissingConstraints" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MapsActivity"
+        android:layout_marginTop="5dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="345dp">
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="47dp"
+            android:layout_marginBottom="1dp"
+            tools:context=".MapsActivity" />
+
+        <LinearLayout
+            android:id="@+id/box_layout"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/white_back"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="55dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/hospitalName"
+                        android:layout_width="240dp"
+                        android:layout_height="30dp"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/hospitalPhone"
+                        android:layout_width="123dp"
+                        android:layout_height="22dp"
+                        android:layout_marginRight="20dp"
+                        android:textAlignment="textEnd"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/hospitalAddress"
+                    android:layout_width="360dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/hospitalWeekdayTextView"
+                        android:layout_width="250dp"
+                        android:layout_height="25dp"
+                        android:text="평일"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/hospitalWeekday"
+                        android:layout_width="110dp"
+                        android:layout_height="20dp"
+                        android:layout_marginRight="20dp"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/hospitalBreakTimeTextView"
+                        android:layout_width="250dp"
+                        android:layout_height="25dp"
+                        android:text="   *  휴게시간"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/hospitalBreakTime"
+                        android:layout_width="110dp"
+                        android:layout_height="20dp"
+                        android:layout_marginRight="20dp"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/black"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/hospitalSatTextView"
+                        android:layout_width="250dp"
+                        android:layout_height="23dp"
+                        android:text="토"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/hospitalSat"
+                        android:layout_width="110dp"
+                        android:layout_height="25dp"
+                        android:layout_marginRight="20dp"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="15dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/hospitalSunTextView"
+                        android:layout_width="250dp"
+                        android:layout_height="23dp"
+                        android:text="일"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/hospitalSun"
+                        android:layout_width="110dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="20dp"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/listButton"
+            android:layout_width="150dp"
+            android:layout_height="65dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/list_button"
+            android:paddingLeft="25dp"
+            android:paddingBottom="3dp"
+            android:text="목록보기"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

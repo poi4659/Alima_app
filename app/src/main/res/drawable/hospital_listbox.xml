@@ -1,0 +1,7 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#00ff0000" /> <!-- 네모박스 배경색 -->
+    <corners android:radius="8dp" /> <!-- 네모박스 모서리 둥글기 -->
+    <stroke
+        android:color="@color/gray"
+        android:width="2dp" />
+</shape>

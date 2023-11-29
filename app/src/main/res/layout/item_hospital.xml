@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_hospital"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/hospital_listbox"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="30dp"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/hospitalName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text=""
+        android:textSize="23dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/hospitalAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text=""
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="25dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:id="@+id/hospitalWeekdayLabel"
+            android:layout_width="90dp"
+            android:layout_height="25dp"
+            android:text="평일"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/hospitalWeekday"
+            android:layout_width="110dp"
+            android:layout_height="20dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="15dp"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:id="@+id/hospitalBreakTimeLabel"
+            android:layout_width="90dp"
+            android:layout_height="25dp"
+            android:text="   *  휴게시간"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/hospitalBreakTime"
+            android:layout_width="110dp"
+            android:layout_height="20dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="15dp"
+            android:textSize="15dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:id="@+id/hospitalSatTextView"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/circle_purple"
+            android:text="토"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/hospitalSat"
+            android:layout_width="110dp"
+            android:layout_height="25dp"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_marginLeft="15dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:id="@+id/hospitalSunTextView"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/circle_purple"
+            android:text="일"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/hospitalSun"
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:id="@+id/hospitalPhone"
+            android:layout_width="123dp"
+            android:layout_height="22dp"
+            android:layout_marginLeft="50dp"
+            android:textSize="15dp"
+            android:textColor="@color/gray"/>
+    </LinearLayout>
+
+</LinearLayout>

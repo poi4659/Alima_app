@@ -1,0 +1,92 @@
+[
+  {
+    "Hospital Name": "성동구보건소",
+    "Hospital Contact": "02-2286-6000",
+    "Hospital Address": "서울특별시 성동구 용답동 31-1",
+    "Hospital weekday": "09:00 - 18:00",
+    "Hospital break time": "12:00 - 13:00",
+    "Hospital sat": "정기휴무",
+    "Hospital sun": "정기휴무"
+  },
+  {
+    "Hospital Name": "연세고마운치과의원",
+    "Hospital Contact": "02-6495-2828",
+    "Hospital Address": "서울 성동구 왕십리로 410 센트라스 L동상가 \n3층 302호",
+    "Hospital weekday": "09:00 - 18:30",
+    "Hospital break time": "13:00 - 14:00",
+    "Hospital sat": "09:30 - 15:00",
+    "Hospital sun": "09:30 - 14:00"
+  },
+  {
+    "Hospital Name": "한양대학교병원",
+    "Hospital Contact": "02-2290-8114",
+    "Hospital Address": "서울 성동구 왕십리로 222-1",
+    "Hospital weekday": "09:00 - 17:30",
+    "Hospital break time": "",
+    "Hospital sat": "08:30 - 12:30",
+    "Hospital sun": "휴무 응급센터 \n종일진료"
+  },
+  {
+    "Hospital Name": "365다움의원",
+    "Hospital Contact": "0507-1343-1755",
+    "Hospital Address": "서울 성동구 왕십리광장로 17 \n왕십리민자역사 비트플렉스 4층 365다움의원",
+    "Hospital weekday": "11:00 - 20:00",
+    "Hospital break time": "14:00 - 15:00",
+    "Hospital sat": "11:00 - 17:00",
+    "Hospital sun": "11:00 - 17:00"
+  },
+  {
+    "Hospital Name": "유앤아이피부과 왕십리점",
+    "Hospital Contact": "02-2295-6020",
+    "Hospital Address": "서울 성동구 왕십리로 315",
+    "Hospital weekday": "09:00 - 20:30",
+    "Hospital break time": "13:00 - 14:00",
+    "Hospital sat": "10:00 - 17:00",
+    "Hospital sun": "정기휴무\n(매주일요일)"
+  },
+  {
+    "Hospital Name": "9988병원",
+    "Hospital Contact": "0507-1304-9988",
+    "Hospital Address": "서울 성동구 왕십리로 269 9988병원",
+    "Hospital weekday": "09:00 - 18:00",
+    "Hospital break time": "",
+    "Hospital sat": "09:00 - 13:00",
+    "Hospital sun": "정기휴무\n(매주일요일)"
+  },
+  {
+    "Hospital Name": "연세안과의원",
+    "Hospital Contact": "02-2291-3155",
+    "Hospital Address": "서울 성동구 왕십리로 309 \n왕십리역이스타빌 4층",
+    "Hospital weekday": "09:30 - 18:00",
+    "Hospital break time": "13:00 - 14:00",
+    "Hospital sat": "09:30 - 13:00",
+    "Hospital sun": "정기휴무\n(매주일요일)"
+  },
+  {
+    "Hospital Name": "삼성탑의원",
+    "Hospital Contact": "02-2299-8875",
+    "Hospital Address": "서울 성동구 고산자로 255 케이타워 5층 \n삼성탑내과",
+    "Hospital weekday": "09:30 - 18:30",
+    "Hospital break time": "13:00 - 14:00",
+    "Hospital sat": "09:30 - 14:00",
+    "Hospital sun": "정기휴무\n(매주일요일)"
+  },
+  {
+    "Hospital Name": "윤이비인후과의원",
+    "Hospital Contact": "02-2282-5119",
+    "Hospital Address": "서울 성동구 고산자로6길 40 레몬프라자 3층",
+    "Hospital weekday": "09:00 - 17:30",
+    "Hospital break time": "13:00 - 14:00",
+    "Hospital sat": "09:00 - 12:00",
+    "Hospital sun": "정기휴무\n(매주일요일)"
+  },
+  {
+    "Hospital Name": "바른정한의원",
+    "Hospital Contact": "0507-1437-7588",
+    "Hospital Address": "서울 성동구 천호대로 308 3층",
+    "Hospital weekday": "09:30 - 19:30",
+    "Hospital break time": "13:00 - 14:00",
+    "Hospital sat": "09:30 - 15:00",
+    "Hospital sun": "정기휴무\n(매주일요일)"
+  }
+]
